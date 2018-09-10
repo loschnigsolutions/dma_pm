@@ -108,7 +108,6 @@ main(int argc, char* argv[])
 
 	d2->PAR	  = &u6->DR;
 	d2->M0AR  = msg;
-	//d2->NDTR  = 1024;
 
 	d2->CR	|=	(1 << 0);
 
